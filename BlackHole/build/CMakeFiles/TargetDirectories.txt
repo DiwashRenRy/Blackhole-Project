@@ -1,0 +1,3 @@
+C:/Coding/BlackHole/build/CMakeFiles/BlackHoleSim.dir
+C:/Coding/BlackHole/build/CMakeFiles/edit_cache.dir
+C:/Coding/BlackHole/build/CMakeFiles/rebuild_cache.dir
