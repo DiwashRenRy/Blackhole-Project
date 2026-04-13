@@ -33,10 +33,7 @@ void Particle::Update(const Particle& black_hole){
     float acc = (6.674e-11f * black_hole.mass) / (dist*dist+10.0f);
     velocity = Vector2Add(velocity, Vector2Scale(direction, acc * GetFrameTime()));
 
-    if(dist > black_hole.radius){
-        active = true;
-    }
-    else{
+    if(dist < black_hole.radius){
         active = false;
         return;
     }
