@@ -19,7 +19,9 @@ int main(){
             Vector2 randomPos = {distPosX(gen), distPosY(gen)};
             float mass = distMass(gen);
             float rad = distRad(gen);
-            stars.push_back(Particle(randomPos, mass, {0,0}, rad, RED));
+            float dist = Vector2Distance(randomPos, black_hole.pos);
+            //Vector2 velocity = sqrt((6.674e-11*1e17)/dist)
+            stars.push_back(Particle(randomPos, mass, {0.0f, 0.0f}, rad, RED));
         }
     while(!WindowShouldClose()){
         

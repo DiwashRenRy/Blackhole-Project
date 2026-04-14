@@ -39,6 +39,10 @@ void Particle::Update(const Particle& black_hole){
     }
 }
 
+void Particle::circularOrbit(const Particle& black_hole){
+    
+}
+
 void Particle::Draw(){
     if(active){
         DrawCircleV(pos, radius, color);
