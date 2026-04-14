@@ -1,5 +1,6 @@
 #pragma once
 #include "raylib.h"
+#include <raymath.h>
 
 class Particle{
     public:
@@ -14,6 +15,5 @@ class Particle{
         Particle(Vector2 position, Vector2 vel, float r, Color c);
         Particle(Vector2 position, float m, Vector2 vel, float r, Color c);
         void Update(const Particle& black_hole);
-        void circularOrbit(const Particle& black_hole);
         void Draw();
 };
