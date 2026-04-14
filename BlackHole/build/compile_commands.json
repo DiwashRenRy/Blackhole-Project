@@ -1,14 +1,14 @@
 [
 {
-  "directory": "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/BlackHoleSim.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\BlackHoleSim.dir\\src\\main.cpp.obj -c C:\\Users\\ddhaka000\\Documents\\GitHub\\Blackhole-Project\\BlackHole\\src\\main.cpp",
-  "file": "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/src/main.cpp",
-  "output": "CMakeFiles/BlackHoleSim.dir/src/main.cpp.obj"
+  "directory": "C:/Coding/Blackhole-Project/BlackHole/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Coding/Blackhole-Project/BlackHole/include -isystem C:/msys64/mingw64/include -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\BlackHoleSim.dir\\src\\main.cpp.obj -c C:\\Coding\\Blackhole-Project\\BlackHole\\src\\main.cpp",
+  "file": "C:\\Coding\\Blackhole-Project\\BlackHole\\src\\main.cpp",
+  "output": "CMakeFiles\\BlackHoleSim.dir\\src\\main.cpp.obj"
 },
 {
-  "directory": "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/BlackHoleSim.dir/includes_CXX.rsp -g -std=gnu++17 -IC:/msys64/ucrt64/bin/../include -o CMakeFiles\\BlackHoleSim.dir\\src\\Particle.cpp.obj -c C:\\Users\\ddhaka000\\Documents\\GitHub\\Blackhole-Project\\BlackHole\\src\\Particle.cpp",
-  "file": "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/src/Particle.cpp",
-  "output": "CMakeFiles/BlackHoleSim.dir/src/Particle.cpp.obj"
+  "directory": "C:/Coding/Blackhole-Project/BlackHole/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -IC:/Coding/Blackhole-Project/BlackHole/include -isystem C:/msys64/mingw64/include -g -std=gnu++17 -IC:/msys64/mingw64/bin/../include -o CMakeFiles\\BlackHoleSim.dir\\src\\Particle.cpp.obj -c C:\\Coding\\Blackhole-Project\\BlackHole\\src\\Particle.cpp",
+  "file": "C:\\Coding\\Blackhole-Project\\BlackHole\\src\\Particle.cpp",
+  "output": "CMakeFiles\\BlackHoleSim.dir\\src\\Particle.cpp.obj"
 }
 ]

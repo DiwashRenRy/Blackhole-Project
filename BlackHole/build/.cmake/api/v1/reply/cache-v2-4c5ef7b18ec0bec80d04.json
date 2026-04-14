@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build"
+			"value" : "C:/Coding/Blackhole-Project/BlackHole/build"
 		},
 		{
 			"name" : "BlackHoleSim_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole"
+			"value" : "C:/Coding/Blackhole-Project/BlackHole"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build"
+			"value" : "c:/Coding/Blackhole-Project/BlackHole/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_CACHE_MINOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "1"
+			"value" : "31"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -127,23 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "0"
-		},
-		{
-			"name" : "CMAKE_COLOR_MAKEFILE",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Enable/Disable color output during build."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "ON"
+			"value" : "5"
 		},
 		{
 			"name" : "CMAKE_COMMAND",
@@ -155,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/cmake.exe"
+			"value" : "C:/msys64/mingw64/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -167,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/cpack.exe"
+			"value" : "C:/msys64/mingw64/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -179,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/ctest.exe"
+			"value" : "C:/msys64/mingw64/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -578,6 +562,22 @@
 			"value" : ""
 		},
 		{
+			"name" : "CMAKE_EXPORT_BUILD_DATABASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of build database during the build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
 			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
 			"properties" : 
 			[
@@ -611,7 +611,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Coding/Blackhole-Project/BlackHole/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "MinGW Makefiles"
+			"value" : "Ninja"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole"
+			"value" : "C:/Coding/Blackhole-Project/BlackHole"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -714,18 +714,6 @@
 			"value" : "C:/msys64/ucrt64/bin/ld.exe"
 		},
 		{
-			"name" : "CMAKE_LIST_FILE_NAME",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Name of CMakeLists files to read"
-				}
-			],
-			"type" : "INTERNAL",
-			"value" : "CMakeLists.txt"
-		},
-		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
@@ -735,11 +723,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Path to a program."
+					"value" : "Program used to build from build.ninja files."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/mingw32-make.exe"
+			"value" : "C:/msys64/mingw64/bin/ninja.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -894,18 +882,6 @@
 			"value" : "1"
 		},
 		{
-			"name" : "CMAKE_PROJECT_COMPAT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
 			"name" : "CMAKE_PROJECT_DESCRIPTION",
 			"properties" : 
 			[
@@ -940,66 +916,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "BlackHoleSim"
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_MINOR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_PATCH",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
-		},
-		{
-			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : ""
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1151,7 +1067,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/share/cmake"
+			"value" : "C:/msys64/mingw64/share/cmake"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1275,7 +1191,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during all build types."
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
 				}
 			],
 			"type" : "STRING",
@@ -1291,7 +1207,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during DEBUG builds."
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
 				}
 			],
 			"type" : "STRING",
@@ -1307,7 +1223,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during MINSIZEREL builds."
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
 				}
 			],
 			"type" : "STRING",
@@ -1323,7 +1239,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during RELEASE builds."
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
 				}
 			],
 			"type" : "STRING",
@@ -1339,7 +1255,7 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "Flags used by the archiver during the creation of static libraries during RELWITHDEBINFO builds."
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
 				}
 			],
 			"type" : "STRING",
@@ -1403,7 +1319,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[C:/msys64/ucrt64/lib/libraylib.dll.a][C:/msys64/ucrt64/include][v()]"
+			"value" : "[C:/msys64/mingw64/lib/libraylib.dll.a][C:/msys64/mingw64/include][v()]"
 		},
 		{
 			"name" : "PC_RAYLIB_CFLAGS",
@@ -1415,7 +1331,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-IC:/msys64/ucrt64/bin/../include"
+			"value" : "-IC:/msys64/mingw64/bin/../include"
 		},
 		{
 			"name" : "PC_RAYLIB_CFLAGS_I",
@@ -1463,7 +1379,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../include"
+			"value" : "C:/msys64/mingw64/bin/../include"
 		},
 		{
 			"name" : "PC_RAYLIB_INCLUDE_DIRS",
@@ -1475,7 +1391,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../include"
+			"value" : "C:/msys64/mingw64/bin/../include"
 		},
 		{
 			"name" : "PC_RAYLIB_LDFLAGS",
@@ -1487,7 +1403,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-LC:/msys64/ucrt64/bin/../lib;-lraylib"
+			"value" : "-LC:/msys64/mingw64/bin/../lib;-lraylib"
 		},
 		{
 			"name" : "PC_RAYLIB_LDFLAGS_OTHER",
@@ -1511,7 +1427,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../lib"
+			"value" : "C:/msys64/mingw64/bin/../lib"
 		},
 		{
 			"name" : "PC_RAYLIB_LIBRARIES",
@@ -1535,7 +1451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../lib"
+			"value" : "C:/msys64/mingw64/bin/../lib"
 		},
 		{
 			"name" : "PC_RAYLIB_LIBS",
@@ -1607,7 +1523,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/.."
+			"value" : "C:/msys64/mingw64/bin/.."
 		},
 		{
 			"name" : "PC_RAYLIB_STATIC_CFLAGS",
@@ -1619,7 +1535,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-IC:/msys64/ucrt64/bin/../include"
+			"value" : "-IC:/msys64/mingw64/bin/../include"
 		},
 		{
 			"name" : "PC_RAYLIB_STATIC_CFLAGS_I",
@@ -1655,7 +1571,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../include"
+			"value" : "C:/msys64/mingw64/bin/../include"
 		},
 		{
 			"name" : "PC_RAYLIB_STATIC_LDFLAGS",
@@ -1667,7 +1583,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "-LC:/msys64/ucrt64/bin/../lib;-lraylib;-lglfw3;-lgdi32"
+			"value" : "-LC:/msys64/mingw64/bin/../lib;-lraylib;-lglfw3;-lgdi32"
 		},
 		{
 			"name" : "PC_RAYLIB_STATIC_LDFLAGS_OTHER",
@@ -1715,7 +1631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../lib"
+			"value" : "C:/msys64/mingw64/bin/../lib"
 		},
 		{
 			"name" : "PC_RAYLIB_STATIC_LIBS",
@@ -1855,7 +1771,43 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/bin/pkg-config.exe"
+			"value" : "C:/msys64/mingw64/bin/pkg-config.exe"
+		},
+		{
+			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "_CMAKE_C_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "linker supports push/pop state"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
 		},
 		{
 			"name" : "__pkg_config_arguments_PC_RAYLIB",
@@ -1895,7 +1847,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/lib/libraylib.dll.a"
+			"value" : "C:/msys64/mingw64/lib/libraylib.dll.a"
 		},
 		{
 			"name" : "prefix_result",
@@ -1907,7 +1859,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/msys64/ucrt64/bin/../lib"
+			"value" : "C:/msys64/mingw64/bin/../lib"
 		},
 		{
 			"name" : "raylib_DIR",
@@ -1919,7 +1871,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/ucrt64/lib/cmake/raylib"
+			"value" : "C:/msys64/mingw64/lib/cmake/raylib"
 		},
 		{
 			"name" : "raylib_INCLUDE_DIR",
@@ -1935,7 +1887,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/msys64/ucrt64/include"
+			"value" : "C:/msys64/mingw64/include"
 		},
 		{
 			"name" : "raylib_LIBRARY",
@@ -1951,7 +1903,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/msys64/ucrt64/lib/libraylib.dll.a"
+			"value" : "C:/msys64/mingw64/lib/libraylib.dll.a"
 		}
 	],
 	"kind" : "cache",

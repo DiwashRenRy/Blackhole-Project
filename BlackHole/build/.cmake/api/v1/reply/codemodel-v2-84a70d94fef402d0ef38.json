@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BlackHoleSim::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BlackHoleSim-Debug-110b254bd9ed6c0a9125.json",
+					"jsonFile" : "target-BlackHoleSim-Debug-fb680e26e7ec6096d5b4.json",
 					"name" : "BlackHoleSim",
 					"projectIndex" : 0
 				}
@@ -49,12 +49,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/build",
-		"source" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole"
+		"build" : "C:/Coding/Blackhole-Project/BlackHole/build",
+		"source" : "C:/Coding/Blackhole-Project/BlackHole"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 8
+		"minor" : 7
 	}
 }

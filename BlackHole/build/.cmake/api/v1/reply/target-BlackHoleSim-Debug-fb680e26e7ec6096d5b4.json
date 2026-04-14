@@ -22,7 +22,7 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/msys64/ucrt64/lib/cmake/raylib/raylib-config.cmake"
+			"C:/msys64/mingw64/lib/cmake/raylib/raylib-config.cmake"
 		],
 		"nodes" : 
 		[
@@ -75,14 +75,19 @@
 				},
 				{
 					"backtrace" : 2,
-					"fragment" : "-IC:/msys64/ucrt64/bin/../include"
+					"fragment" : "-IC:/msys64/mingw64/bin/../include"
 				}
 			],
 			"includes" : 
 			[
 				{
 					"backtrace" : 6,
-					"path" : "C:/Users/ddhaka000/Documents/GitHub/Blackhole-Project/BlackHole/include"
+					"path" : "C:/Coding/Blackhole-Project/BlackHole/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/msys64/mingw64/include"
 				}
 			],
 			"language" : "CXX",
@@ -111,13 +116,17 @@
 				"role" : "flags"
 			},
 			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
 				"backtrace" : 2,
-				"fragment" : "C:\\msys64\\ucrt64\\lib\\libraylib.dll.a",
+				"fragment" : "C:\\msys64\\mingw64\\lib\\libraylib.dll.a",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 5,
-				"fragment" : "-LC:/msys64/ucrt64/bin/../lib -lraylib",
+				"fragment" : "-LC:/msys64/mingw64/bin/../lib -lraylib",
 				"role" : "libraries"
 			},
 			{
