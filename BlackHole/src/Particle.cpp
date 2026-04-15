@@ -47,6 +47,8 @@ void Particle::Update(const Particle& black_hole){
         color = RED;
     }*/
 
+    
+
     if(dist < black_hole.radius+20){
         active = false;
         return;
