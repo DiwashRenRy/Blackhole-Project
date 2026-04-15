@@ -21,16 +21,16 @@ int main(){
             float dist = Vector2Distance(randomPos, black_hole.pos);
             float dy = randomPos.y - black_hole.pos.y;
             float dx = randomPos.x - black_hole.pos.x;
-            float velocityX = sqrt((6.674e-11*1e17)/dist) * (-dy/dist) * 1.3;
-            float velocityY = sqrt((6.674e-11*1e17)/dist) * (dx/dist) * 1.3;
-            stars.push_back(Particle(randomPos, mass, {velocityX, velocityY}, rad, RED));
+            float velocityX = sqrt((6.674e-11*1e17)/dist) * (-dy/dist) * 1.1;
+            float velocityY = sqrt((6.674e-11*1e17)/dist) * (dx/dist) * 1.1;
+            stars.push_back(Particle(randomPos, mass, {velocityX, velocityY}, rad, {219, 142, 9, 255}));
         }
     while(!WindowShouldClose()){
         
         BeginDrawing();
-        ClearBackground(BLACK);
+        ClearBackground({0, 9, 23, 255});
         black_hole.Draw();
-        DrawCircle(800, 600, 90, BLACK);
+        DrawCircle(800, 600, 85, BLACK);
         for(Particle& s: stars){
             s.Update(black_hole);
             s.Draw();        
