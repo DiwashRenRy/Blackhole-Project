@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Coding\BlackHole -BC:\Coding\BlackHole\build
+  command = C:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SC:\Coding\Blackhole-Project\BlackHole -BC:\Coding\Blackhole-Project\BlackHole\build
   description = Re-running CMake...
   generator = 1
 

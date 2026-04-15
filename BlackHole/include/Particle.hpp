@@ -1,9 +1,11 @@
 #pragma once
 #include "raylib.h"
+#include <raymath.h>
 
 class Particle{
     public:
         Vector2 pos;
+        Vector2 prevPos;
         Vector2 velocity;
         float radius;
         float mass;
