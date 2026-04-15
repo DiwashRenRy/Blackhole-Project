@@ -28,6 +28,10 @@ void Particle::Update(const Particle& black_hole){
     if(this->mass > 1000.0f) return;
 
     prevPos = pos;
+    path.push_back(prevPos);
+    if(path.size() > 5000){
+        path.erase(path.begin());
+    }
     pos = Vector2Add(pos, Vector2Scale(velocity, GetFrameTime()));
     float dist = Vector2Distance(pos, black_hole.pos);
     Vector2 direction = Vector2Normalize(Vector2Subtract(black_hole.pos, this->pos));
@@ -61,7 +65,12 @@ void Particle::Update(const Particle& black_hole){
 
 void Particle::Draw(){
     if(active){
-        DrawCircleV(prevPos, 2, WHITE);
+        if(path.size() > 2){
+            for(int i = 1; i < path.size()-1; i++){
+                DrawLineV(path[i-1], path[i], WHITE);
+            }
+        }
+        
         DrawCircleV(pos, radius, color);
     }
 }
