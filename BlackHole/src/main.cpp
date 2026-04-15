@@ -16,9 +16,10 @@ int main(){
     Particle black_hole({100, 300}, 1e15*100, {0, 0}, 100, WHITE);
     for(int i = 0; i < 10; i++){
             Vector2 randomPos = {distPos(gen), distPos(gen)};
-            Vector2 randomVel = {distVel(gen), distVel(gen)};
+            //Vector2 randomVel = {distVel(gen), distVel(gen)};
             float mass = distMass(gen);
             float rad = distRad(gen);
+            
             stars.push_back(Particle(randomPos, mass, {0,0}, rad, RED));
         }
     while(!WindowShouldClose()){
