@@ -14,7 +14,7 @@ int main(){
     std::uniform_real_distribution<float> distRad(5.0f, 15.0f);
     std::uniform_real_distribution<float> distMass(50.0f, 500.0f);
     Particle black_hole({800, 600}, 1e17, {0, 0}, 100, WHITE);
-    for(int i = 0; i < 1000; i++){
+    for(int i = 0; i < 10; i++){
             Vector2 randomPos = {distPosX(gen), distPosY(gen)};
             float mass = distMass(gen);
             float rad = distRad(gen);
